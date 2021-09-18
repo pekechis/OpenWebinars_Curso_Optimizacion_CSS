@@ -1,0 +1,55 @@
+
+/* EJEMPLO CON REPETICIÓN DE DECLARACIONES */
+.btn-error {
+    background-color: #F00;
+    border-radius: 1rem;
+    color:#FFF;
+    padding:0.5rem;
+}
+
+.btn-info {
+    background-color: rgb(4, 128, 14);
+    border-radius: 1rem;
+    color:#FFF;
+    padding:0.5rem;
+}
+
+.btn-warning {
+    background-color: rgb(251, 113, 0);
+    border-radius: 1rem;
+    color:#FFF;
+    padding:0.5rem;
+}
+
+.btn-primary {
+    background-color: rgb(34, 117, 194);
+    border-radius: 1rem;
+    color:#FFF;
+    padding:0.5rem;
+}
+
+/* EVITANDO LA REPETICIÓN DE LAS DECLARACIONES */
+/* Se crea una nueva regla que hay que añadir a los elementos */
+/* <a class="btn-error>EJEMPLO</a> */
+.btn {    
+    border-radius: 1rem;
+    color:#FFF;
+    padding:0.5rem;
+}
+
+.btn-error {
+    background-color: #F00; 
+}
+
+.btn-info {
+    background-color: rgb(4, 128, 14);
+}
+
+.btn-warning {
+    background-color: rgb(251, 113, 0);
+}
+
+.btn-primary {
+    background-color: rgb(34, 117, 194);
+}
+

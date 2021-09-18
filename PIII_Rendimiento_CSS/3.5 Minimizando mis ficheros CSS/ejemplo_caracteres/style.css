@@ -1,0 +1,23 @@
+
+/* EJEMPLO SIN APLICAR LAS REGLAS PROPUESTAS */
+
+.ejemplo {
+    border-color: black;
+    border-style: solid;
+    border-width: 1.0px;
+    color: #AAAAAA;
+    padding: 0.5rem;    
+}
+
+/* EJEMPLO APLICANDO LAS REGLAS PROPUESTAS */
+.ejemplo {
+    
+    /* No utilizo abreviaturas ni 0 posteriores en unidades */
+    border: 1px solid  black; 
+    
+    /* Versión de 3 dígitos de los colores */
+    color: #AAA;
+
+    /* Eliminación de ceros delante y del ; en la última propiedad */
+    padding: .5rem
+}

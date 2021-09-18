@@ -1,0 +1,20 @@
+
+/* BLOQUE: Entidad que es significativa por si sola */
+
+.menu {
+    background-color: rgb(160, 101, 168);
+    color: #FFF;
+    margin: 1rem 0;    
+}
+
+/* ELEMENTO: Parte del bloque que no existe de manera independiente y está ligado al bloque */
+/* USAREMOS __ */
+.menu__item {
+    padding: 0.5rem;
+}
+
+/* MODIFICADOR: Para diferenciar un bloque o un elemento. Para cambiar la apariencia o el comportamiento */
+/* USAREMOS -- */
+.menu__item--active {
+    text-decoration: underline;
+}

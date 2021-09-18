@@ -1,0 +1,30 @@
+/* CSS CON LAS PROPIEDADES ORDENADAS */
+.cards {
+	background: rgb(211, 171, 248);
+	border: 0.5rem solid #000;
+	color: white;
+	display: flex;
+	font-size: 0.5rem;
+	font-weight: bolder;
+	justify-content: space-between;
+	padding: 1rem;
+	transform: rotate(15deg);
+	width: 50%;
+	z-index: 1;
+}
+/* CSS CON LAS PROPIEDADES ORDENADAS. EXCPECIÓN EXTENSIÓN ESPECÍFICA PARA LOS DISTINTOS NAVEGADORE */
+.cards2 {
+	background: rgb(211, 171, 248);
+	border: 0.5rem solid #000;
+	color: white;
+	display: flex;
+	font-size: 0.5rem;
+	font-weight: bolder;
+	justify-content: space-between;
+	padding: 1rem;
+	transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	width: 50%;
+	z-index: 1;
+}

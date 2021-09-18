@@ -1,0 +1,98 @@
+/*IDS y CLASES SIN SIGNIFICADO */
+
+/* EJEMPLO 1: BOTONES */
+.todos {
+  border-radius: 1rem;
+  color: #fff;
+  padding: 0.5rem
+}
+
+.tipo1 {
+  background-color: #f00
+}
+
+.tipo2 {
+  background-color: rgb(4, 128, 14)
+}
+
+.tipo3 {
+  background-color: rgb(251, 113, 0)
+}
+
+/* Con significado */
+.btn {
+  border-radius: 1rem;
+  color: #fff;
+  padding: 0.5rem
+}
+
+.btn-error {
+  background-color: #f00
+}
+
+.btn-info {
+  background-color: rgb(4, 128, 14)
+}
+
+.btn-warning {
+  background-color: rgb(251, 113, 0)
+}
+
+/* EJEMPLO 2: MENU DE UN NIVEL */
+
+/* Sin significado */
+.a {
+  background-color: rgb(167, 30, 172);
+  color: #fff;
+  margin-top: 1rem
+}
+
+.a ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.c {
+  display: inline-block;
+  padding: 0.5rem;
+  text-align: center
+}
+
+/* Con significado */
+.menu {
+  background-color: rgb(167, 30, 172);
+  color: #fff;
+  margin-top: 1rem
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.menu_item {
+  display: inline-block;
+  padding: 0.5rem;
+  text-align: center
+}
+
+/* IDS y CLASES CON NOMBRES MUY LARGOS */
+.boton-cabecera {
+  border-radius: 1rem;
+  color: #fff;
+  padding: 0.5rem
+}
+
+.boton-error-aplicacion {
+  background-color: #f00
+}
+
+.boton-informacion-aplicacion {
+  background-color: rgb(4, 128, 14);
+}
+
+.boton-warning.aplicacion {
+  background-color: rgb(251, 113, 0);
+}
